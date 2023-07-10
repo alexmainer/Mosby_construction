@@ -14,8 +14,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{% static 'img/img.png' %}" rel="icon">
-  <link href="{% static 'img/img.png'%}" rel="apple-touch-icon">
+  <link href="{% static 'img/log_1.png' %}" rel="icon">
+  <link href="{% static 'img/log_1.png'%}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,7 +49,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="{% url 'index' %}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>Mosby Constructions<span>.</span></h1>
